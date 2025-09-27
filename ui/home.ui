@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1363</width>
+    <height>823</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-60</y>
+      <width>1101</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(253, 176, 187);</string>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="page_home">
+     <widget class="QPushButton" name="btnclu">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>780</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+QPushButton {
+    background-color: rgb(255, 153, 172);
+    color: rgb(255, 245, 235);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+QPushButton:pressed {
+    background-color: rgb(240, 140, 160);
+    border-style: inset;
+}</string>
+      </property>
+      <property name="text">
+       <string>Kết quả</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../image/taoanhdep_mo_rong_anh_21109 lớn.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtnameNam">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>330</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>  Tên bạn nam là</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtnameWomen">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>330</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color:rgba(254, 184, 192, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string> Tên bạn nữ là</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>49</y>
+        <width>1101</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(253, 176, 187);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>220</y>
+        <width>351</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 245, 245, 200);
+border-radius:40px;
+box-shadow: 0px -3px 5px #a6a6a6;
+</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>261</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Thông tin bạn nam&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Tên bạn nam</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Cung hoàng đạo nam</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="txttuoiNam">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>290</y>
+         <width>331</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+       </property>
+       <property name="placeholderText">
+        <string>    Số tuổi của nam</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>260</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Tuổi nam</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>350</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Tôn giáo</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="txtnamsinhNam">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>470</y>
+         <width>331</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+       </property>
+       <property name="placeholderText">
+        <string> Năm sinh nam</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>440</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Năm sinh</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cboCungNam">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>331</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbotongiaoNam">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>331</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>220</y>
+        <width>351</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(253, 176, 187, 200);
+border-radius:40px;</string>
+      </property>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>10</y>
+         <width>261</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Thông tin bạn nữ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Tên bạn nữ</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Cung hoàng đạo nữ</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>260</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="text">
+        <string>Tuổi nữ</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cboCungNu">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>331</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color:rgba(254, 184, 192, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cbotongiaoNu">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>331</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color:rgba(254, 184, 192, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="txttuoiWomen">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>510</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color:rgba(254, 184, 192, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>    Số tuổi của nữ</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>570</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;</string>
+      </property>
+      <property name="text">
+       <string>Tôn giáo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtnamsinhWomen">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>690</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color:rgba(254, 184, 192, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Năm sinh nữ</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>660</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;</string>
+      </property>
+      <property name="text">
+       <string>Năm sinh</string>
+      </property>
+     </widget>
+     <zorder>label_5</zorder>
+     <zorder>btnclu</zorder>
+     <zorder>frame</zorder>
+     <zorder>widget</zorder>
+     <zorder>txtnameNam</zorder>
+     <zorder>widget_2</zorder>
+     <zorder>txtnameWomen</zorder>
+     <zorder>txttuoiWomen</zorder>
+     <zorder>label_14</zorder>
+     <zorder>txtnamsinhWomen</zorder>
+     <zorder>label_16</zorder>
+    </widget>
+    <widget class="QWidget" name="page_SR">
+     <widget class="QLineEdit" name="txtSR">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>180</y>
+        <width>741</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QLineEdit {
+background-color:rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+QLineEdit:pressed {
+	background-color:rgba(255, 255, 257, 0.7);
+    border-style: inset;
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>   Tìm kiếm mọi thứ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnSRR">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>190</y>
+        <width>67</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color:rgba(255, 255, 255, 1);
+    color: rgb(255, 245, 235);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+	background-color:rgba(200, 200, 200, 1);
+    color: rgb(255, 245, 235);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QPushButton:pressed {
+	background-color:rgba(255, 255, 255, 0.7);
+    border-style: inset;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(253, 176, 187);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../image/taoanhdep_mo_rong_anh_21109 lớn.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_17</zorder>
+     <zorder>txtSR</zorder>
+     <zorder>btnSRR</zorder>
+     <zorder>frame_2</zorder>
+    </widget>
+    <widget class="QWidget" name="page_movie">
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>-40</x>
+        <y>60</y>
+        <width>1231</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(253, 176, 187);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtSR_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>190</y>
+        <width>741</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Lời khuyên từ thuật toán</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnSRR_3">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>200</y>
+        <width>67</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../image/taoanhdep_mo_rong_anh_21109 lớn.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_18</zorder>
+     <zorder>frame_3</zorder>
+     <zorder>txtSR_2</zorder>
+     <zorder>btnSRR_3</zorder>
+    </widget>
+    <widget class="QWidget" name="page_thongbao">
+     <widget class="QLineEdit" name="txtSR_5">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>180</y>
+        <width>741</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>   Lời khuyên theo cung hoàng đạo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnSRR_7">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>190</y>
+        <width>67</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(255, 255, 255, 0.7);
+border-radius: 15px;
+color:rgb(0, 0, 0);
+border: rgba(201, 173, 167);
+QLineEdit {
+    color: gray;  /* Màu chữ khi nhập */
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>130</y>
+        <width>1101</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../image/taoanhdep_mo_rong_anh_21109 lớn.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>1101</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(253, 176, 187);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <zorder>label_19</zorder>
+     <zorder>txtSR_5</zorder>
+     <zorder>btnSRR_7</zorder>
+     <zorder>frame_4</zorder>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>-10</y>
+      <width>1121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="10,10,10,0,0,20">
+     <property name="spacing">
+      <number>134</number>
+     </property>
+     <property name="topMargin">
+      <number>21</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="btnNavHome">
+       <property name="styleSheet">
+        <string notr="true">border:none</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../image/home_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/home_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnNavSr">
+       <property name="styleSheet">
+        <string notr="true">border:none</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnNavNotify">
+       <property name="styleSheet">
+        <string notr="true">border:none</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../image/notifications_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/notifications_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnNavMovie">
+       <property name="styleSheet">
+        <string notr="true">border:none</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../image/movie_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/movie_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnLogout">
+       <property name="styleSheet">
+        <string notr="true">border:none;
+background-color: rgb(253, 176, 187);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../image/logout_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</normaloff>../image/logout_24dp_000000_FILL0_wght400_GRAD0_opsz24.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+    <zorder>btnNavSr</zorder>
+    <zorder>btnNavHome</zorder>
+    <zorder>btnNavMovie</zorder>
+    <zorder>btnNavNotify</zorder>
+    <zorder>horizontalSpacer</zorder>
+    <zorder>btnLogout</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1363</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
